@@ -6,11 +6,11 @@ This is a simple TodoApp built on Ethereum using Foundry. Users can create, mark
 ### Build
 
 ```shell
-$ forge build
+forge build
 ```
 
 ### Deploy
 
 ```shell
-$ forge create --rpc-url <your_rpc_url> --private-key <your_private_key> src/todo.sol:TodoApp
+forge create --rpc-url <your_rpc_url> --private-key <your_private_key> src/todo.sol:TodoApp
 ```
